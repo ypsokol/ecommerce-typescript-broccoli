@@ -82,8 +82,8 @@ const Register: NextPage = () => {
           </ListItem>
           <ListItem>
             Already have an account?{" "}
-            <NextLink href="/login" passHref>
-              <Link>Register</Link>
+            <NextLink href={Routes.login} passHref>
+              <Link>Login</Link>
             </NextLink>
           </ListItem>
         </List>
