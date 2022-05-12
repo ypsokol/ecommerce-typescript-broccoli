@@ -1,4 +1,9 @@
-import { Button, Card, List, ListItem, Typography } from "@mui/material";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import Typography from "@mui/material/Typography";
+
 import { FC } from "react";
 
 import { useCart } from "../../context/cart/hooks/useCart";

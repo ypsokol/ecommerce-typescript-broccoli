@@ -1,5 +1,11 @@
+import Grid from "@mui/material/Grid";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import Rating from "@mui/material/Rating";
+import Typography from "@mui/material/Typography";
+
 import { FC } from "react";
-import { Grid, List, ListItem, Rating, Typography } from "@mui/material";
+
 import { classes } from "../../utils/classes";
 import { ProductType } from "../../types/product";
 

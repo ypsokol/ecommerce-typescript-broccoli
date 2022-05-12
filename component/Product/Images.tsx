@@ -1,7 +1,9 @@
+import Grid from "@mui/material/Grid";
+
 import Image from "next/image";
 import { FC } from "react";
+
 import { urlFor } from "../../utils/image";
-import { Grid } from "@mui/material";
 import { ProductType } from "../../types/product";
 
 type Props = {

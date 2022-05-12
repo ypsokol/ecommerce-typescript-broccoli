@@ -1,13 +1,17 @@
-import { Button, List, ListItem } from "@mui/material";
+import Button from "@mui/material/Button";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+
 import { FC, useEffect } from "react";
+import { useRouter } from "next/router";
+
 import { useForm } from "react-hook-form";
 import { useUser } from "../../../context/user/hooks/useUser";
-import { default as FormContainer } from "../../Form";
 import { toast } from "react-toastify";
 import { NextApi } from "../../../utils/api/nextApi";
 import { getError } from "../../../utils/error";
-import { useRouter } from "next/router";
 import Routes from "../../../constants/routes";
+import { default as FormContainer } from "../../Form";
 import Name from "../../Fields/Name";
 import Email from "../../Fields/Email";
 import Password from "../../Fields/Password";

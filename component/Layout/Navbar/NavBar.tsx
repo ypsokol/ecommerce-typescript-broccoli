@@ -1,4 +1,9 @@
-import { AppBar, Box, Link, Toolbar, Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import AppBar from "@mui/material/AppBar";
+import Link from "@mui/material/Link";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+
 import { FC, lazy, Suspense } from "react";
 import NextLink from "next/link";
 import { classes } from "../../../utils/classes";

@@ -1,5 +1,12 @@
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
+import Grid from "@mui/material/Grid";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import Typography from "@mui/material/Typography";
+
 import { FC } from "react";
-import { Button, Card, Grid, List, ListItem, Typography } from "@mui/material";
+
 import { ProductType } from "../../types/product";
 
 type Props = {

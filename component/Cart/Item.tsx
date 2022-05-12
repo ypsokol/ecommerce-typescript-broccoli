@@ -1,12 +1,11 @@
 import { FC, memo } from "react";
-import {
-  Button,
-  ButtonGroup,
-  Link,
-  TableCell,
-  TableRow,
-  Typography,
-} from "@mui/material";
+
+import Button from "@mui/material/Button";
+import ButtonGroup from "@mui/material/ButtonGroup";
+import Link from "@mui/material/Link";
+import TableCell from "@mui/material/TableCell";
+import TableRow from "@mui/material/TableRow";
+import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 
 import NextLink from "next/link";

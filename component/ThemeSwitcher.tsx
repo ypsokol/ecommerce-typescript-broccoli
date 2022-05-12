@@ -1,5 +1,7 @@
-import { Switch } from "@mui/material";
+import Switch from "@mui/material/Switch";
+
 import { FC } from "react";
+
 import { useThemeContext } from "../context/theme/context";
 import { ActionType } from "../context/theme/reducer";
 import Cookies from "js-cookie";

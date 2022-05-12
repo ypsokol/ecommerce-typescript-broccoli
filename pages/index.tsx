@@ -1,5 +1,7 @@
-import { Grid } from "@mui/material";
+import Grid from "@mui/material/Grid";
+
 import type { GetServerSideProps, NextPage } from "next";
+
 import Product from "../component/Product";
 import { ProductType } from "../types/product";
 import client from "../utils/client";

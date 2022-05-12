@@ -1,8 +1,12 @@
-import { Button, Menu, MenuItem } from "@mui/material";
-import { classes } from "../../../utils/classes";
-import Routes from "../../../constants/routes";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+
 import { FC, useState } from "react";
 import { useRouter } from "next/router";
+
+import { classes } from "../../../utils/classes";
+import Routes from "../../../constants/routes";
 import Cookies from "js-cookie";
 import { useUser } from "../../../context/user/hooks/useUser";
 

@@ -1,5 +1,7 @@
-import { ThemeProvider } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
+
 import { FC, ReactNode } from 'react';
+
 import { useThemeContext } from '../context/theme/context';
 import { theme } from '../utils/theme';
 

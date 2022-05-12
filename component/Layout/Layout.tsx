@@ -1,5 +1,8 @@
+import Container from "@mui/material/Container";
+import CssBaseline from "@mui/material/CssBaseline";
+
 import { FC, ReactNode } from "react";
-import { Container, CssBaseline } from "@mui/material";
+
 import { classes } from "../../utils/classes";
 import Theme from "../Theme";
 import Header from "./Header/Header";
