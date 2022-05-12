@@ -6,10 +6,6 @@ export const useCartCheckout = (state: CartState) => {
   const onCheckout = async () => {
     const stripe = await getStripe();
     if (stripe) {
-      // const body = state.map((item) => ({
-      //   product: item.product,
-      //   quantity: item.quantity,
-      // }));
       const response = await fetch("/api/payment/stripe", {
         method: "POST",
         headers: {
