@@ -33,7 +33,7 @@ const Register: NextPage = () => {
   } = useForm();
 
   useEffect(() => {
-    !isUser && router.push(Routes.home);
+    isUser && router.push(Routes.home);
   }, [router, isUser]);
 
   const handleOnSubmit = async ({ name, email, password, confirmPassword }) => {
