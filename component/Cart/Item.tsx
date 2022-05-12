@@ -21,7 +21,6 @@ type Props = {
 };
 
 const Item: FC<Props> = ({ item: { id, quantity, product } }) => {
-  console.log(id);
   const { onRemove, onDec, onInc } = useCart();
   const handleOnRemove = () => {
     onRemove(id);
@@ -57,7 +56,7 @@ const Item: FC<Props> = ({ item: { id, quantity, product } }) => {
       <TableCell>
         <ButtonGroup variant="outlined">
           <Button onClick={handleOnDec}>-</Button>
-          <Button disabled>{quantity}</Button>
+          <Button>{quantity}</Button>
           <Button onClick={handleOnInc}>+</Button>
         </ButtonGroup>
       </TableCell>
